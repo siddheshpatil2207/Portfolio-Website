@@ -1,0 +1,30 @@
+.section{
+    height: 44rem;
+    width: match-parent;
+    background-color: white;
+}
+
+.navbar{
+    height: 4rem;
+    width: auto;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}
+
+.navbar a:hover{
+    transition: transform 0.3s ease;
+    transform: scale(1.1);
+    color: red;
+}

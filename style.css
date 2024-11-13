@@ -1,0 +1,289 @@
+@media (min-width: 769px){
+    .Mobile{
+        display: none;
+    }
+
+    .desktop{
+        display: block;       
+    }
+}
+
+.section{
+    padding: 0;
+    margin: 0;
+    height: 44rem;
+    width: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/**.navbar{
+    height: 4rem;
+    width: auto;
+}
+
+.navbar nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    margin-right: 5rem;
+    margin-top: 2rem;
+}**/
+
+.subsection{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.pf{
+    height: 30rem;
+    width: 50%;
+}
+
+.sociallinks{
+    display: flex;
+    height: 15rem;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.info{
+    margin-left: 4rem;
+}
+
+.links{
+    height: 5rem;
+    width: match-parent;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.links a{
+    text-decoration: none;
+}
+
+.links button{
+    background-color: transparent;
+    border: 0px;
+    font-size: larger;
+    color: black;
+}
+
+.links button:hover{
+    color: red;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.hover-image {
+    transition: transform 0.3s ease;
+}
+
+.hover-image:hover {
+    transform: scale(1.1); 
+}
+
+
+.pf .image{
+    height: 70%;
+    width: 100%;
+}
+
+.pf .name{
+    text-align: center;
+}
+
+.image img{
+    border-radius: 50%;
+}
+
+.name h5{
+    margin: 0;
+    padding: 0;
+}
+
+.name h4{
+    margin: 0;
+    padding: 0;
+}
+
+.instagram{
+    margin-top: 5rem;
+    padding: 10px;
+    height: max-content;
+}
+
+.github{
+    margin-top: 5rem;
+    padding: 10px;
+    height: max-content;
+    margin-right: 2rem;
+}
+
+.linkedin{
+    margin-top: 5rem;
+    padding: 10px;
+    height: max-content;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.gmail{
+    margin-top: 5rem;
+    padding: 10px;
+    height: max-content;
+}
+
+@media (max-width: 768px){
+    .desktop{
+        display: none;
+    }
+
+    .Mobile{
+        display: block;       
+    }
+
+    .mobilesection{
+        background-color: white;
+        height: max-content;
+        width: auto;
+    }
+
+    .mobilenavbar{
+        height: 2rem;
+        width: auto;
+    }
+
+    .mobilenavbar nav{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    .mobilenavbar a{
+        margin-top: 0.5rem;
+        color: black;
+        text-decoration: none;
+        margin-right: 2rem;
+    }
+
+    .mobilepf{
+        height: 15rem;
+        width: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mobilepf img{
+        border-radius: 50%;
+    }
+
+    .mobilename{
+        text-align: center;
+    }
+
+    .mobilename h5{
+        margin: 0;
+        padding: 0;
+    }
+    .mobilename h4{
+        margin: 0;
+        padding: 0;
+    }
+    .mobilename h1{
+        margin: 0;
+        padding: 0;
+    }
+
+    .social{
+        height: 40rem;
+        width: match-parent;
+        background-color: white;
+        display: grid;
+        justify-content: center;
+    }
+
+    .insta{
+        margin-top: 2rem;
+    }
+
+    .mobileresume{
+        height: 10rem;
+        width: match-parent;
+        background-color: white;
+    }
+
+    .mobileresume h2{
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+    .downloadbutton{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 2rem;
+    }
+
+    button {
+        background-color: red;
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+    }
+    
+    button:hover {
+        background-color: #45a049;
+    }
+
+    .mobilepl{
+        height: 35rem;
+        width: match-parent;
+        background-color: white;
+        text-align: center;
+    }
+
+    .mobilepl h2{
+        padding: 0;
+        margin: 0;
+    }
+
+    .subpl1{
+        height: 10rem;
+        width: match-parent;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .subpl2{
+        height: 10rem;
+        width: match-parent;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .subpl3{
+        height: 10rem;
+        width: match-parent;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+}
